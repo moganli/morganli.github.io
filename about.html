@@ -1,0 +1,163 @@
+
+<html lang="X">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>About</title>
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link href="http://fonts.googleapis.com/css?family=Spartan:400,500,600,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="w3l-banner-main w3l-inner-page-main">
+  <div class="breadcrumb-infhny">
+    <header id="site-header" class="header-top">
+      <nav class="navbar navbar-expand-lg shift " id="header">
+        <a class="navbar-brand" href="index.html">
+          Group 6<span class="dot-1">.</span>
+        </a>
+        <button class="navbar-toggler bg-gradient" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation"><span class="navbar-toggler-icon fa fa-bars"> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link effect-3" href="about.html">About</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+
+  </div>
+  <nav id="breadcrumbs" class="breadcrumbs">
+    <div class="page-wrapper">
+      <a href="#">Home</a> » <span class="breadcrumb_last" aria-current="page">About</span></div>
+  </nav>
+</section>
+
+<section class="w3l-about-info-6">
+	  <div class="ab-content-info py-5">
+			 <div class="container py-lg-5">
+					<div class="inner_sec_top text-left">
+							<h3 class="hny-title">Introduction<span class="dot-1">.</span></h3>
+								<img src="assets/images/banner2.jpg" alt=" " class="img-fluid">
+
+							
+			
+						<div class="grdis-about-inf">
+							<div class="one-left-ab">
+									<h3 class="hny-title">About OUR<span class="dot-1">.</span></h3>
+									<p>We are ffrom <b>School of Mathematical and Computer Sciences</b> We expect to produce excellent procedures and become an efficient and harmonious team.</p>
+							</div>
+							<div class="one-left-ab biography-para">
+									<h3 class="hny-title">Intent<span class="dot-1">.</span></h3>
+									<p>first APP:"WeRamble"</p><p>make word better</p><p>Say something...</p><p>Say something...</p></div>
+							</div>
+						</div>
+					</div>
+				 
+				 </div>
+			 </div>
+	 </section>
+  
+<section class="w3l-ab-content-6">
+	<div class="work-content">
+		<div class="work-process py-5">
+			<div class="container py-lg-5">
+				<h3 class="hny-title">team member<span class="dot-1">.</span></h3>
+				<div class="row about-content-grids mt-lg-5 mt-4">
+					<div class="col-lg-3 col-md-6 about-gd mt-3">
+						<div class="about-gd-inn">
+							<h5><a href="#URL">Wyness, Callum</a></h5>
+							<p>An internet and web enthusiast with experience of full stack development and cloud technology. A keen believer in agile design principles and open source technology. Enjoys tinkering, experimenting and learning.</p>
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 about-gd mt-3">
+						<div class="about-gd-inn">
+							<h5><a href="#URL">Steven, Fraser</a></h5>
+							<p>I’m Fraser Steven and I’m a 3rd year Conputing Science student at Heriot-Watt. My role in this team is to develop the database side of the application and the email verification system</p>
+
+						</div>
+
+					</div>
+					<div class="col-lg-3 col-md-6 about-gd mt-3">
+						<div class="about-gd-inn">
+							<h5><a href="#URL">Anderson, Bobby</a></h5>
+							<p>Say something...</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 about-gd mt-3">
+						<div class="about-gd-inn">
+							<h5><a href="#URL">Gardner, Ben</a></h5>
+							<p>Say something...</p>
+						</div>
+					</div>
+				</div>
+				<div class="row about-content-grids mt-lg-5 mt-4">
+					<div class="col-lg-3 col-md-6 about-gd mt-3">
+						<div class="about-gd-inn">
+							<h5><a href="#URL">Li, Morgan</a></h5>
+							<p>A third-year student from Heriot-watt University, majoring in computer science.Working on testing at Project "WeRamble" In addition, I like cycling and fitness..</p>
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 about-gd mt-3">
+						<div class="about-gd-inn">
+							<h5><a href="#URL">Markou, Alex</a></h5>
+							<p>Say something...</p>
+
+						</div>
+					</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+</body>
+
+</html>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script>
+<script>
+
+  $(window).on("scroll", function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 80) {
+      $("#site-header").addClass("nav-fixed");
+    } else {
+      $("#site-header").removeClass("nav-fixed");
+    }
+  });
+
+  $(".navbar-toggler").on("click", function() {
+    $("header").toggleClass("active");
+  });
+  $(document).on("ready", function() {
+    if ($(window).width() > 991) {
+      $("header").removeClass("active");
+    }
+    $(window).on("resize", function() {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+    });
+  });
+</script>
+
+<script src="assets/js/bootstrap.min.js"></script>
